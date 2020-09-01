@@ -1,0 +1,1 @@
+go build -o .\.windows-bin\rui.exe && .\.windows-bin\rui.exe dev

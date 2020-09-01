@@ -1,0 +1,9 @@
+{
+  "_siteName": "Rui",
+  "home": "Home",
+  "language": "English",
+  "errorOccurred": "An error occurred",
+  "pPageNotFound": "The URL you requested \"{0}\" does not exist",
+  "resourceNotFound": "The resource you requested does not exist",
+  "helloWorld": "Hello world!"
+}

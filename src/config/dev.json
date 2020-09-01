@@ -1,0 +1,24 @@
+{
+  "http": {
+    "port": 12001,
+    "static": {
+      "url": "/static",
+      "dir": "../assets"
+    },
+    "log_404_error": true
+  },
+  "templates": {
+    "dir": "../templates"
+  },
+  "localization": {
+    "dir": "../localization/langs",
+    "defaultLang": "en"
+  },
+  "log": {
+    "dir": "../appdata/log/dev"
+  },
+  "debug": {
+    "reload_views_on_refresh": true,
+    "panic_on_unexpected_html_errors": true
+  }
+}

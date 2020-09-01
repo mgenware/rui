@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{html .Title}}</title>
+    <link rel="stylesheet" href="/static/style/main.css" />
+    {{.Header}}
+  </head>
+
+  <body>
+    <nav class="m-header">
+      <p>
+        <span>Rui - {{.LS.Language}}</span>
+      </p>
+    </nav>
+    <main class="container">
+      <p>
+        <a href="/">Home(Auto-detect language)</a> |
+        <a href="/?lang=en">Home(English)</a> |
+        <a href="/?lang=cs">Home(Simplified Chinese)</a> |
+        <a href="/internal_error"
+          >Server error (crashes in dev | shows error page in production)</a
+        >
+        |
+        <a href="/__not_found__">404 Page</a>
+      </p>
+      <hr />
+      {{.ContentHTML}}
+    </main>
+
+    <script src="/static/script/main.js"></script>
+    {{.Scripts}}
+  </body>
+</html>

@@ -1,0 +1,5 @@
+*.log
+/appdata/*
+!/appdata/README.md
+/src/.windows-bin
+node_modules

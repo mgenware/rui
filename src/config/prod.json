@@ -1,0 +1,21 @@
+{
+  "devMode": false,
+  "http": {
+    "port": 12000,
+    "static": {
+      "url": "/static",
+      "dir": "../assets"
+    },
+    "log_404_error": true
+  },
+  "templates": {
+    "dir": "../templates"
+  },
+  "localization": {
+    "dir": "../localization/langs",
+    "defaultLang": "en"
+  },
+  "log": {
+    "dir": "../appdata/log/prod"
+  }
+}
